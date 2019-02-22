@@ -14,6 +14,7 @@ class WexOnlineTest(unittest.TestCase):
         self.driver.get(web_url)
         self.driver.implicitly_wait(10)
 
+
         # Maximize  browser
         self.driver.maximize_window()
 
