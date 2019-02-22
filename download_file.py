@@ -49,3 +49,7 @@ class WexOnlineTest(unittest.TestCase):
     def tearDown(self):
         # close the browser
         self.driver.quit()
+
+
+if __name__ == "__main__":
+        unittest.main()
